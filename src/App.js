@@ -73,6 +73,9 @@ class App extends Component {
         }
     }
 
+    /**
+     * Returns state to default value
+     */
     cleanState () {
         this.setState({
             fileAdded: false,
