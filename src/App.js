@@ -62,7 +62,7 @@ class App extends Component {
                 return value;
             });
         } catch (e) {
-            alert ('Неверный формат файла JSON');
+            alert ('Invalid JSON file');
         }
         if (jsonObject) {
             this.setState({
